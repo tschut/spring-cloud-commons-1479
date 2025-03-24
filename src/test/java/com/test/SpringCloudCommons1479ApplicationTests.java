@@ -1,13 +1,12 @@
 package com.test;
 
+import io.fabric8.kubernetes.client.server.mock.EnableKubernetesMockClient;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+@EnableKubernetesMockClient
 class SpringCloudCommons1479ApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
-
+    @Test
+    void fail() {
+    }
 }
